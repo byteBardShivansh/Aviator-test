@@ -22,6 +22,6 @@ spec:
     spec:
       containers:
         - name: gitops-app
-          image: gcr.io/micro-environs-442313-i6/gitops-app:v1
+          image: gcr.io/micro-environs-442313-i6/gitops-app:latest
           ports:
             - containerPort: 5000
